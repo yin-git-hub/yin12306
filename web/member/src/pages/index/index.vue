@@ -1,6 +1,6 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
+    <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
       <div>
@@ -8,17 +8,30 @@
         <br>
         <button @tap="addNumber">+</button>
       </div>
+      <div>
+        <button @tap="testApi">test api</button>
+      </div>
     </view>
   </view>
 </template>
 
-<script setup>
-import {useCounterStore} from "../../store/index";
+<script setup lang="ts">
 import {ref} from "vue"
+import {useCounterStore} from "@/stores"
 const title = ref('Hello')
 const counteStore = useCounterStore()
+const testData = ref<string>("")
 const addNumber = ()=>{
   counteStore.addNumber()
+}
+const testApi = () =>{
+  console.log(11)
+  uni.request({
+    method:"GET",
+    url:'/test/test1',
+  }).then(resp=>{
+    console.log(resp.data)
+  })
 }
 
 </script>
