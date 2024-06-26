@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4932c906-83e8-4bcb-bf6c-536eea868d42" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/web/member/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/src/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/src/utils/interceptor/http.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/login/LoginGlobeIntercepte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/yin/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/yin/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/shims-uni.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/shims-uni.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/pages/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/shime-uni.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/shime-uni.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/static/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/stores/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/src/uni.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/src/uni.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/member-web/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/test/java/org/yin/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/test/java/org/yin/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yin12306.md" beforeDir="false" afterPath="$PROJECT_DIR$/yin12306.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Vue Composition API Component" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,11 +75,14 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "ts.external.directory.path": "E:\\resources\\y\\java\\yin12306\\yin12306\\web\\member\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
     "vue.recent.templates": [
       "Vue Composition API Component"
     ]
@@ -125,16 +110,34 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.YinMamber12306">
-    <configuration name="RSAUtil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yin.utils.RSAUtil" />
-      <module name="common" />
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yin.utils.*" />
+          <option name="PATTERN" value="org.yin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.yin" />
+      <option name="MAIN_CLASS_NAME" value="org.yin.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yin" />
+      <option name="MAIN_CLASS_NAME" value="org.yin.AppTest" />
+      <option name="METHOD_NAME" value="testApp" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,16 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="build:mp-weixin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/web/member-web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:mp-weixin" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="dev:mp-weixin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/web/member-web/package.json" />
       <command value="run" />
@@ -187,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.YinMamber12306" />
         <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Spring Boot.YinMamber12306" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testApp" />
         <item itemvalue="npm.dev:mp-weixin" />
-        <item itemvalue="npm.build:mp-weixin" />
-        <item itemvalue="Application.RSAUtil (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +201,7 @@
       <workItem from="1719137884585" duration="4389000" />
       <workItem from="1719142691555" duration="13166000" />
       <workItem from="1719207869533" duration="19350000" />
+      <workItem from="1719266537338" duration="23957000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -227,5 +221,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

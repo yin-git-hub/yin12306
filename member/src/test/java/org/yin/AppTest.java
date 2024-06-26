@@ -1,5 +1,7 @@
 package org.yin;
 
+import cn.hutool.core.lang.Snowflake;
+import cn.hutool.core.util.IdUtil;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -10,29 +12,21 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
     public void testApp()
     {
-        assertTrue( true );
+        //参数1为终端ID
+//参数2为数据中心ID
+        Snowflake snowflake = IdUtil.getSnowflake(1, 1);
+        long id = snowflake.nextId();
+
+//简单使用
+        long id2 = IdUtil.getSnowflakeNextId();
+
+        for (int i = 0; i < 50; i++) {
+            String id3 = IdUtil.getSnowflakeNextIdStr();
+            System.out.println(id3);
+        }
+
     }
 }
