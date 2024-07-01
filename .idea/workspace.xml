@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4932c906-83e8-4bcb-bf6c-536eea868d42" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/login/LoginGlobeIntercepte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/components/layout/layout-sider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/components/layout/layout-test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/stores/counter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/views/mian/passing-station-admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/views/mian/train-number-admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/src/views/the-main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/test/java/org/yin/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/test/java/org/yin/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yin12306.md" beforeDir="false" afterPath="$PROJECT_DIR$/yin12306.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Composition API Component" />
         <option value="Class" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -54,40 +72,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/resources/y/java/yin12306/yin12306/web/member/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
-    "ts.external.directory.path": "E:\\resources\\y\\java\\yin12306\\yin12306\\web\\member\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/resources/y/java/yin12306/yin12306/web/member/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\resources\\y\\java\\yin12306\\yin12306\\web\\admin\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -110,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="member" />
       <extension name="coverage">
@@ -168,11 +186,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dev:mp-weixin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/web/member-web/package.json" />
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/admin/package.json" />
       <command value="run" />
       <scripts>
-        <script value="dev:mp-weixin" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -180,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="Spring Boot.YinMamber12306" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testApp" />
-        <item itemvalue="npm.dev:mp-weixin" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +220,10 @@
       <workItem from="1719142691555" duration="13166000" />
       <workItem from="1719207869533" duration="19350000" />
       <workItem from="1719266537338" duration="23957000" />
+      <workItem from="1719481356352" duration="8151000" />
+      <workItem from="1719577144793" duration="3577000" />
+      <workItem from="1719584719838" duration="1307000" />
+      <workItem from="1719648190374" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
