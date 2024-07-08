@@ -1,4 +1,4 @@
-package org.yin;
+package org.example;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

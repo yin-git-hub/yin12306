@@ -1,4 +1,4 @@
-package org.yin;
+package org.example;
 
 /**
  * Hello world!

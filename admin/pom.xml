@@ -7,7 +7,7 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>org.example</groupId>
+    <groupId>org.yin</groupId>
     <artifactId>admin</artifactId>
     <packaging>jar</packaging>
 

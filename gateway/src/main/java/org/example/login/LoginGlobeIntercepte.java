@@ -1,4 +1,4 @@
-package org.example.login;
+package org.yin.login;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

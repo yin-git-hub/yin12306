@@ -6,7 +6,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Hello world!
- *
  */
 @SpringBootApplication
 public class YinMamber12306
