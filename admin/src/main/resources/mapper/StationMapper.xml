@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.yin.mapper.StationMapper">
+
+    <resultMap id="BaseResultMap" type="org.yin.domain.Station">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="cityId" column="city_id" jdbcType="BIGINT"/>
+            <result property="cityName" column="city_name" jdbcType="VARCHAR"/>
+            <result property="stationName" column="station_name" jdbcType="VARCHAR"/>
+            <result property="waitingHallId" column="waiting_hall_id" jdbcType="BIGINT"/>
+            <result property="waitingHallName" column="waiting_hall_name" jdbcType="VARCHAR"/>
+            <result property="platformId" column="platform_id" jdbcType="BIGINT"/>
+            <result property="platformName" column="platform_name" jdbcType="VARCHAR"/>
+            <result property="deleted" column="deleted" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,city_id,city_name,
+        station_name,waiting_hall_id,waiting_hall_name,
+        platform_id,platform_name,deleted
+    </sql>
+</mapper>

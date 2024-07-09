@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.yin.mapper.SeatMapper">
+
+    <resultMap id="BaseResultMap" type="org.yin.domain.Seat">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="trainId" column="train_id" jdbcType="BIGINT"/>
+            <result property="carriageId" column="carriage_id" jdbcType="BIGINT"/>
+            <result property="seatNumber" column="seat_number" jdbcType="VARCHAR"/>
+            <result property="numberCarriageSeats" column="number_carriage_seats" jdbcType="INTEGER"/>
+            <result property="numberTrainSeats" column="number_train_seats" jdbcType="BIGINT"/>
+            <result property="deleted" column="deleted" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,train_id,carriage_id,
+        seat_number,number_carriage_seats,number_train_seats,
+        deleted
+    </sql>
+</mapper>

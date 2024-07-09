@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.yin.mapper.TrainNumberMapper">
+
+    <resultMap id="BaseResultMap" type="org.yin.domain.TrainNumber">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="trainId" column="train_id" jdbcType="BIGINT"/>
+            <result property="originId" column="origin_id" jdbcType="BIGINT"/>
+            <result property="terminalId" column="terminal_id" jdbcType="BIGINT"/>
+            <result property="originTime" column="origin_time" jdbcType="TIMESTAMP"/>
+            <result property="terminalTime" column="terminal_time" jdbcType="TIMESTAMP"/>
+            <result property="deleted" column="deleted" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,train_id,origin_id,
+        terminal_id,origin_time,terminal_time,
+        deleted
+    </sql>
+</mapper>

@@ -136,7 +136,11 @@
         <artifactId>therapi-runtime-javadoc</artifactId>
         <version>${therapi-javadoc.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>org.yin</groupId>
+        <artifactId>common-mybatis-plus</artifactId>
+        <version>${version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
