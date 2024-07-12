@@ -12,6 +12,8 @@ import org.yin.service.PassingStationService;
 @RequestMapping("/passingStation")
 public class PassingStationController {
     private final PassingStationService passingStationService;
+
+
     @PostMapping
     public BaseResponse add(@RequestBody PassingStationAddDTO passingStationAddDTO){
         passingStationService.add(passingStationAddDTO);

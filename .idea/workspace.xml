@@ -5,67 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4932c906-83e8-4bcb-bf6c-536eea868d42" name="Changes" comment="添加一下依赖">
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/controller/PassingStationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/PassingStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/TrainNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/domain/dto/PassingStationAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/PassingStationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/SeatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/StationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/TrainMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/TrainNumberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/PassingStationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/SeatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/StationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/TrainNumberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/TrainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/PassingStationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/SeatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/StationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/TrainNumberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/TrainServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/PassingStationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/SeatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/StationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/TrainMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/TrainNumberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/test/java/TTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/controller/TTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-web/src/main/java/org/yin/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/test/java/org/yin/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/org/yin/controller/PassingStationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/controller/PassingStationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/exception/ThrowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/exception/ThrowUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/result/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/result/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/result/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/result/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/main/java/org/example/result/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-core/src/main/java/org/yin/result/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-core/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-knife4j/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-knife4j/src/main/java/org/yin/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-knife4j/src/main/java/org/example/config/Knife4jConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-knife4j/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-mybatis-plus/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-mybatis-plus/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-web/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-web/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/yin/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/example/login/LoginGlobeIntercepte.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/yin/login/LoginGlobeIntercepte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-knife4j/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-knife4j/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/yin/YinMamber12306.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/org/yin/Yin12306Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/yin/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/yin/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/test/java/org/yin/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +48,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -113,40 +65,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/resources/y/java/yin12306/yin12306/admin/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "ts.external.directory.path": "E:\\resources\\y\\java\\yin12306\\yin12306\\web\\admin\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/resources/y/java/yin12306/yin12306/admin/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\resources\\y\\java\\yin12306\\yin12306\\web\\admin\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -262,6 +214,8 @@
       <workItem from="1720440801895" duration="6383000" />
       <workItem from="1720505276479" duration="4802000" />
       <workItem from="1720521832303" duration="16189000" />
+      <workItem from="1720660203290" duration="2904000" />
+      <workItem from="1720756728082" duration="4221000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
